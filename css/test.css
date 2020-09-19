@@ -1,15 +1,26 @@
 body{
 	background-color: #F5EDE8;
+	font-family: monospace;
 }
-h1{
+header{
+	margin-left: 50px;
+}
+header h1{
 	font-size: 30px;
 	color: #A04000;
 }
-h3, h3 a {
-	font-size: 30px;
-	color: #A04000;
-}
-footer, p, a {
+header a{
 	font-size: 20px;
 	color: #A04000;
+	text-decoration: none;
+}
+header a:hover{
+  	color: #44A76C;
+}
+header a:active{
+	text-decoration: underline;
+}
+main{
+	text-align: center;
+	margin-top: 50px;
 }
