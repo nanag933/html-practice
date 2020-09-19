@@ -1,11 +1,15 @@
 body{
-	background-color: #FDF2E9;
+	background-color: #F5EDE8;
 }
 h1{
 	font-size: 30px;
 	color: #A04000;
 }
-h3{
-	font-size: 25px;
+h3, h3 a {
+	font-size: 30px;
+	color: #A04000;
+}
+footer, p, a {
+	font-size: 20px;
 	color: #A04000;
 }
