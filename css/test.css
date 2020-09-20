@@ -10,24 +10,29 @@ header{
 	margin-left: 50px;
 }
 header h1{
-	font-size: 30px;
+	font-size: 40px;
 	text-decoration: bold;
 	color: #A04000;
+}
+header h2 a, h4 a, h5 a{
+	font-weight: 5;
 }
 header a{
 	font-size: 20px;
 	color: #A04000;
-	text-decoration: none;
+	text-decoration: none; 
 }
 header a:hover{
   	color: #44A76C;
 }
-header a:active{
-	text-decoration: underline;
-}
-main{
-	text-align: center;
+div#main {
 	margin-top: 50px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 header img:hover {
   	opacity: 0.5;
@@ -39,16 +44,18 @@ hr.new1 {
   	box-sizing: border-box;
 }
 .column {
-	text-align: center;
+	display: grid;
  	float: none;
- 	width: 30%;
   	padding: 5px;
   	display: block;
+  	grid-template-rows: 1fr;
+  	grid-auto-rows: 100px;
 }
 .row {
-	text-align: center;
+	display: grid;
   	float: left;
- 	width: 30%;
-  	padding: 5px;
+   	padding: 5px;
   	display: block;
+  	grid-template-columns: 1fr 1fr 1fr;
+  	grid-gap: 2%;
 }

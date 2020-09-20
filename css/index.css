@@ -11,20 +11,19 @@ header{
 	margin-left: 50px;
 }
 header h1{
-	font-size: 30px;
-	text-decoration: bold;
+	font-size: 40px;
 	color: #A04000;
+}
+header h3 a, h4 a, h5 a{
+	font-weight: 5;
 }
 header a{
 	font-size: 20px;
 	color: #A04000;
-	text-decoration: none;
+	text-decoration: none; 
 }
 header a:hover{
   	color: #44A76C;
-}
-header a:current{
-	text-decoration: underline;
 }
 main {
 	text-align: center;
